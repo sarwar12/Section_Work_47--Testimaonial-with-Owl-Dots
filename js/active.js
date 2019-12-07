@@ -1,0 +1,9 @@
+$(document).ready(function($){
+	$(".testimonial-carousel").owlCarousel({
+		items:1,
+		loop:true,
+		autoplay:false,
+		dots:true,
+		nav:false
+	});
+});

@@ -1,0 +1,86 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+	font-family: Roboto;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Custom Font CSS Start */
+@font-face{
+	font-family: Roboto;
+	src:url(../fonts/Roboto-Bold.ttf)
+}
+/* Custom Font CSS Stop */
+/* Testtimonial Section Start */
+.testimonial-bg {
+	background-image: url(../img/bg.jpg);
+	background-color: #333;
+	/* color: #fff; */
+	background-size: contain;
+	background-position: center;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.user-avatar img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.user-avatar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.testimonial-content {
+  font-size: 18px;
+  line-height: 29px;
+  font-style: italic;
+  font-weight: bold;
+}
+.single-testimonial-item h4 {
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.single-testimonial-item h4 span {
+  display: block;
+  font-weight: 300;
+  font-size: 80%;
+  margin-top: 8px;
+}
+.single-testimonial-item {
+  text-align: center;
+}
+	/* Carousel Dots */
+.testimonial-carousel .owl-dots button {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background: #2e4450;
+  border-radius: 50%;
+  margin: 5px;
+}
+.testimonial-carousel .owl-dots button.active {
+  background: #fff;
+}
+.testimonial-carousel .owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+	/* Carousel Dots */
+
+/* Testtimonial Section Stop */
